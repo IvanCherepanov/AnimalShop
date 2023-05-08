@@ -64,7 +64,7 @@ INSERT INTO pet_type VALUES (10,'Черепахи');
 INSERT INTO pet_type VALUES (11,'Прочее');
 
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-VALUES (1, 908, 'Веда фитомины от аллергии для кошек', 'Фитокомплекс, входящий в состав корма, снижает предрасположенность к аллергическим заболеваниям, а также выраженность аллергических реакций – зуда, расчесов, мокнущих язв, высыпаний, непереносимость пищевых компонентов, реакции на различные бытовые и лекарственные раздражители, повышенную чувствительность кожи', 2, 2, 3, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/2f/98/68/463453_400x400.jpg');
+VALUES (1, 908, 'Веда фитомины от аллергии для кошек', 'Фитокомплекс, входящий в состав корма, снижает предрасположенность к аллергическим заболеваниям, а также выраженность аллергических реакций – зуда, расчесов, мокнущих язв, высыпаний, непереносимость пищевых компонентов', 2, 2, 3, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/2f/98/68/463453_400x400.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 VALUES (2, 214, 'Royal Canin паучи паучи кусочки в соусе для Мейн-куна старше 15 месяцев', 'Влажный корм для мейн куна Royal Canin Maine Coon стоит купить каждому хозяину, желающему обеспечить здоровье костей и суставов своего питомца.', 8, 2, 2, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/10/0e/df/622066_400x400.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
@@ -72,19 +72,17 @@ VALUES (3, 100, 'Duis eu massa', 'incididunt ut labore et dolore magna aliqua. U
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 VALUES (4, 1704, 'Eukanuba паучи для собак говядина в соусе', 'Влажный корм для собак с говядиной способствует поддержанию здоровой кишечной микрофлоры за счет пребиотиков и клетчатки. Включает в себя аппетитный соус.', 4, 1, 2, 'https://i.pinimg.com/originals/e6/be/f3/e6bef3835ff4658d296dc2b06434bf8a.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-VALUES (5, 32, 'Bonsy лосьон для очистки ушей кошек и собак', 'Лосьон для ушей Bonsy - эффективное гигиеническое средство для обработки ушной раковины и наружного слухового прохода у животных. Натуральные компоненты мягко и бережно очищают уши животного, обладают противовоспалительными свойствами. ', 2, 1, 14, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/a0/2e/a8/569465_400x400.jpg');
+VALUES (5, 32, 'Bonsy лосьон для очистки ушей кошек и собак', 'Лосьон для ушей Bonsy - эффективное гигиеническое средство для обработки ушной раковины и наружного слухового прохода у животных. Натуральные компоненты мягко', 2, 1, 14, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/a0/2e/a8/569465_400x400.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-VALUES (6, 1444, 'Tappi амуниция поводок круглый "Альтаис" зеленый, 120 см', 'Поводки Tappi изготовлены из капрона круглого плетения, они не боятся грязи, воды и атмосферных воздействий. Поводки оснащены прочной стальной фурнитурой, которая обеспечивает дополнительную безопасность Вашего питомца.', 8, 1, 11, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/76/20/51/608968_400x400.jpg');
+VALUES (6, 1444, 'Tappi амуниция поводок круглый "Альтаис" зеленый, 120 см', 'Поводки Tappi изготовлены из капрона круглого плетения, они не боятся грязи, воды и атмосферных воздействий.', 8, 1, 11, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/76/20/51/608968_400x400.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 VALUES (7, 300, 'Donec ut', 'molestie gravida', 2, 4, 12, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/d4/0c/c9/466223_400x400.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-VALUES (8, 310, 'AQUACONS кондиционер для воды "Чистая вода", 50 мл', 'Кондиционер АКВАКОНС "Чистая вода" предназначен для создания и поддержания безопасной, здоровой среды в аквариуме, за счет устранения мутности аквариумной воды любого происхождения (массовое развитие бактерий, мельчайшие частицы ила, одноклеточные водоросли, "цветение воды" и др.)', 4, 4, 12, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/d4/0c/c9/466223_400x400.jpg');
+VALUES (8, 310, 'AQUACONS кондиционер для воды "Чистая вода", 50 мл', 'Кондиционер АКВАКОНС "Чистая вода" предназначен для создания и поддержания безопасной, здоровой среды в аквариуме,е бактерий', 4, 4, 12, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/d4/0c/c9/466223_400x400.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-VALUES (9, 320, 'ЗООМИР грунтоочиститель аквариумный', 'В процессе очистки грунта удаляются частицы остатков кормов и продуктов жизнедеятельности рыб, в результате разложения которых в аквариуме накапливаются токсичные вещества. Кроме того, рыхление грунта и его перемешивание улучшают газообмен у корней растений.', 8, 4, 12, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/56/bc/b2/601951_400x400.jpg');
+VALUES (9, 320, 'ЗООМИР грунтоочиститель аквариумный', 'В процессе очистки грунта удаляются частицы остатков кормов и продуктов жизнедеятельности рыб', 8, 4, 12, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/56/bc/b2/601951_400x400.jpg');
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-VALUES (10, 330, 'Tetra (оборудование) картридж с углем Tetratec ЕasyCrystal Pack С 10', 'Для кристально прозрачной, здоровой воды
-Инновационный фильтрующий картридж: аккуратная замена - руки остаются сухими
-Механическая очистка: двусторонняя фильтрующая губка для надёжного удаления мельчайших частичек грязи. Белая сторона для предварительной фильтрации, зелёная сторона для тщательной тонкой фильтрации ', 8, 4, 12, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/7f/1c/79/483827_400x400.jpg');
+VALUES (10, 330, 'Tetra (оборудование) картридж с углем Tetratec ЕasyCrystal Pack С 10', 'Для кристально прозрачной, здоровой воды Инновационный фильтрующий картридж: аккуратная замена - руки остаются сухими', 8, 4, 12, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/7f/1c/79/483827_400x400.jpg');
 
 INSERT INTO item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 VALUES (11, 908, 'Aenean eu consectetur', 'fdgfd', 2, 2, 3, 'https://6kcmxu3d7l.a.trbcdn.net/upload/files-new/47/11/7d/553215_400x400.jpg');
@@ -147,7 +145,7 @@ values (38, 153, 'Rim Lichen', 'Integer tincidunt ante vel ipsum. Praesent bland
 insert into item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 values (39, 365, 'Punchberry', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 8, 2, 13, 'https://ae04.alicdn.com/kf/HTB1uXpqr7omBKNjSZFqq6xtqVXaG/-.jpg');
 insert into item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-values (40, 595, 'American Trailplant', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 8, 2, 14, 'https://cdn1.ozone.ru/s3/multimedia-k/6465161960.jpg');
+values (40, 595, 'American Trailplant', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices ', 8, 2, 14, 'https://cdn1.ozone.ru/s3/multimedia-k/6465161960.jpg');
 
 insert into item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 values (41, 294, 'Whitetinge Sedge', 'Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.', 9, 4, 13, 'https://cdn1.ozone.ru/s3/multimedia-s/6095918176.jpg');
@@ -160,7 +158,7 @@ values (44, 278, 'Earth Lichen', 'Vestibulum ac est lacinia nisi venenatis trist
 insert into item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 values (45, 242, 'Rattan''s Beardtongue', 'Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.', 2, 4, 36, 'https://www.v063.ru/upload/iblock/0b3/mag3.jpg');
 insert into item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
-values (46, 525, 'Perfoliate Baby''s-breath', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.', 3, 4, 8, 'https://www.v063.ru/upload/iblock/0b3/mag3.jpg');
+values (46, 525, 'Perfoliate Baby''s-breath', 'Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus', 3, 4, 8, 'https://www.v063.ru/upload/iblock/0b3/mag3.jpg');
 insert into item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
 values (47, 766, 'Manyspore Rinodina Lichen', 'Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.', 7, 4, 3, 'https://avatars.mds.yandex.net/get-altay/2384894/2a000001719d2cf7404ac51b02432d8079e3/XXXL');
 insert into item (id, cost, item_name, description, item_type_id, pet_type_id, brand_type_id, image_item)
