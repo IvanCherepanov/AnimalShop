@@ -1,6 +1,6 @@
-import {$springHost} from "../index";
+import {$springAuthHost, $springHost} from "../index";
 
 export const getOrderDetailListById = async (orderId) => {
-    const {data} = await $springHost.get(`/api/orderDetail/list/${orderId}`)
+    const {data} = await $springAuthHost.get(`/api/orderDetail/list/${orderId}`)
     return data;
 }

@@ -1,12 +1,12 @@
 import {$springAuthHost, $springHost} from "../index";
 
 export const fetchOrders = async () => {
-    const {data} = await $springHost.get('api/order/list')
+    const {data} = await $springAuthHost.get('api/order/list')
     return data
 }
 
 export const createOrder = async (order) => {
-    const {data} = await $springHost.post('api/order/create', order)
+    const {data} = await $springAuthHost.post('api/order/create', order)
     return data
 }
 
