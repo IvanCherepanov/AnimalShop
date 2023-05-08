@@ -51,7 +51,7 @@ INSERT INTO item_type  (item_type_name) VALUES ('Наполнители');
 INSERT INTO item_type  (item_type_name) VALUES ('Витамины');
 INSERT INTO item_type  (item_type_name) VALUES ('Премиум');
 
-INSERT INTO pet_type (pet_type_name) VALUES (1, 'Собака');
+INSERT INTO pet_type VALUES (1, 'Собака');
 INSERT INTO pet_type VALUES (2,'Кошка');
 INSERT INTO pet_type VALUES (3,'Грызуны');
 INSERT INTO pet_type VALUES (4,'Рыбы');
