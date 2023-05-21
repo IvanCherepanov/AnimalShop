@@ -28,9 +28,9 @@ const Auth = observer(() => {
         try{
             let data;
             if (isLogin){
-                data = await loginSpring(email, password);
+                data = await loginSpring(name, password);
                 let current_user;
-                current_user = await getUserByUsername(email);
+                current_user = await getUserByUsername(name);
                 //console.log(current_user)
                 user.setUser(current_user)
                 //console.log(user.user)
@@ -56,9 +56,10 @@ const Auth = observer(() => {
                 <Form className="d-flex flex-column">
                     <Form.Control
                         className="mt-3"
-                        placeholder="Input email"
-                        value={email}
-                        onChange={e => setEmail(e.target.value)}
+                        placeholder="Input name"
+                        value={name}
+                        onChange={e => setName(e.target.value)}
+                        type='text'
                     />
                     <Form.Control
                         className="mt-3"
@@ -73,11 +74,11 @@ const Auth = observer(() => {
                         :
                         <Form.Control
                             className="mt-3"
-                            placeholder="Input name"
-                            value={name}
-                            onChange={e => setName(e.target.value)}
-                            type='text'
+                            placeholder="Input email"
+                            value={email}
+                            onChange={e => setEmail(e.target.value)}
                         />
+
                     }
                     <div className="d-flex justify-content-between mt-3 pl-3 pr-3">
                         {isLogin ?
